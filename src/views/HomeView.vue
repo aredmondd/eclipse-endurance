@@ -1,3 +1,5 @@
 <template>
-  <h1>hello there</h1>
+  <div class="text-center mt-24">
+    <h1>home view</h1>
+  </div>
 </template>
