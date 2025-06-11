@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="flex justify-between items-center mt-4">
     <RouterLink to="/"> <img src="/logo.png" alt="" class="w-54" /> </RouterLink>
-    <div class="flex gap-4">
+    <div class="flex gap-6">
       <RouterLink
         class="font-medium tracking-wide hover:text-red duration-200 ease-in-out"
         activeClass="text-light-red"
@@ -15,7 +15,13 @@ import { RouterLink } from 'vue-router'
       <RouterLink
         class="font-medium tracking-wide hover:text-red duration-200 ease-in-out"
         activeClass="text-light-red"
-        to="/coaching"
+        to="/training"
+        >training</RouterLink
+      >
+      <RouterLink
+        class="font-medium tracking-wide hover:text-red duration-200 ease-in-out"
+        activeClass="text-light-red"
+        to="/coaches"
         >coaches</RouterLink
       >
       <RouterLink
