@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mx-24 my-24">
+  <div class="flex flex-col mx-24 mb-24">
     <h1 class="text-red font-bold text-center text-8xl">MEET THE COACHES</h1>
     <p class="text-white/50 text-center mt-4 mb-12">
       All three of our coaches competed for 4+ years at the NCAA DII level in track and cross
