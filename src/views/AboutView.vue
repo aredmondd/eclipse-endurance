@@ -14,7 +14,7 @@
 
     <div class="max-w-4xl mx-auto space-y-32 mt-32 mb-12">
       <div>
-        <h2 class="text-6xl font-extrabold uppercase text-light-red">What We Believe</h2>
+        <h2 class="text-6xl font-bold uppercase text-light-red font-orbitron">What We Believe</h2>
         <ul class="mt-6 space-y-12 text-xl text-white/50">
           <li>
             <span class="font-bold text-3xl text-white/75"
@@ -40,7 +40,9 @@
       </div>
 
       <div class="flex flex-col">
-        <h2 class="text-6xl font-extrabold uppercase text-light-red text-left">Who We Are</h2>
+        <h2 class="text-6xl font-bold uppercase text-light-red text-left font-orbitron">
+          Who We Are
+        </h2>
         <p class="mt-6 text-xl text-white/50 text-left">
           We’re three former NCAA DII runners who’ve raced at nationals, led teams to conference
           titles, and trained through setbacks and comebacks. Our coaching is shaped by years of
@@ -55,7 +57,7 @@
       </div>
 
       <div class="text-center">
-        <p class="text-5xl uppercase font-extrabold text-white/75">
+        <p class="text-5xl uppercase font-bold text-white/75">
           Start working towards <br />your eclipse today.
         </p>
         <div class="mt-8 space-x-4">

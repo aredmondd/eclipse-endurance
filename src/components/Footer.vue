@@ -28,9 +28,9 @@
       >
     </div>
     <div class="flex gap-4">
-      <div class="bg-red font-extrabold text-black p-6 rounded-full">AR</div>
-      <div class="bg-red font-extrabold text-black p-6 rounded-full">AM</div>
-      <div class="bg-red font-extrabold text-black p-6 rounded-full">AG</div>
+      <div class="bg-red font-bold text-black p-6 rounded-full">AR</div>
+      <div class="bg-red font-bold text-black p-6 rounded-full">AM</div>
+      <div class="bg-red font-bold text-black p-6 rounded-full">AG</div>
     </div>
   </div>
 </template>
