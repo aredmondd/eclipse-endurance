@@ -10,7 +10,13 @@
 
     <div class="flex flex-col gap-12">
       <div v-for="(coach, key) in coaches" :key="key" class="flex mt-18">
-        <img :src="coach.src" :alt="coach.name" class="w-90 h-max" />
+        <img
+          :src="coach.src"
+          :alt="coach.name"
+          class="w-90 h-max transition-opacity duration-500 opacity-0"
+          loading="lazy"
+          @load="$event.target.classList.add('opacity-100')"
+        />
         <div class="flex flex-col ml-12">
           <h2 class="text-5xl font-extrabold uppercase text-light-red tracking-wide">
             {{ coach.name }}

@@ -5,7 +5,7 @@ import C2A from '@/components/C2A.vue'
 <template>
   <section class="px-6 pb-16 space-y-12 text-white/75">
     <div class="text-center">
-      <h1 class="text-red font-bold uppercase text-8xl">ABOUT US</h1>
+      <h1 class="text-red font-bold uppercase text-8xl">About Us</h1>
       <p class="mt-6 max-w-3xl mx-auto text-xl text-white/75">
         Every runner has a breakthrough inside them. <br /><br />A moment when it all comes
         together—the work, the belief, the heart—and you do something you once thought was

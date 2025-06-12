@@ -4,7 +4,8 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="flex justify-between items-center mt-4 mb-24">
-    <RouterLink to="/"> <img src="/logo.png" alt="" class="w-54" /> </RouterLink>
+    <!-- <RouterLink to="/"> <img src="/logo.png" alt="" class="w-54" /> </RouterLink> -->
+    <RouterLink to="/"> <img src="/primary-icon.png" alt="" class="w-16" /> </RouterLink>
     <div class="flex gap-6">
       <RouterLink
         class="font-medium tracking-wide hover:text-red duration-200 ease-in-out"
