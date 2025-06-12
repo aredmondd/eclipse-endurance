@@ -102,10 +102,13 @@
         </tbody>
       </table>
     </div>
+
+    <C2A class="my-24" />
   </div>
 </template>
 
 <script setup>
+import C2A from '@/components/C2A.vue'
 import PricingCard from '@/components/PricingCard.vue'
 
 const basicBullets = [

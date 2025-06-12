@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import C2A from '@/components/C2A.vue'
+</script>
+
 <template>
   <section class="px-6 pb-16 space-y-12 text-white/75">
     <div class="text-center">
@@ -14,25 +18,26 @@
 
     <div class="max-w-4xl mx-auto space-y-32 mt-32 mb-12">
       <div>
-        <h2 class="text-6xl font-bold uppercase text-light-red font-orbitron">What We Believe</h2>
+        <h2 class="text-6xl font-bold uppercase text-light-red">What We Believe</h2>
         <ul class="mt-6 space-y-12 text-xl text-white/50">
           <li>
-            <span class="font-bold text-3xl text-white/75"
+            <span class="font-orbitron font-bold text-3xl text-white/75"
               >The Right Support Changes Everything</span
             ><br />
-            We believe that every runner deserves real coaching and attention—no matter thei pace,
+            We believe that every runner deserves real coaching and attention—no matter the pace,
             background, or experience. You don't have to be an elite to be taken seriously. With the
             right support, anyone can grow into a stronger, more confident athlete.
           </li>
           <li>
-            <span class="font-bold text-3xl text-white/75">Breakthroughs Aren’t Random</span
+            <span class="font-orbitron font-bold text-3xl text-white/75"
+              >Breakthroughs Aren’t Random</span
             ><br />Great results don't happen by accident. They're the product of intentional,
             well-structured training paired with consistent guidance and feedback. We don't leave
             anything to chance—we plan, adapt, and grow with you.
           </li>
           <li>
-            <span class="font-bold text-3xl text-white/75">Running is Personal</span><br />You're
-            more than just your workouts and race times. That's why we focus on
+            <span class="font-orbitron font-bold text-3xl text-white/75">Running is Personal</span
+            ><br />You're more than just your workouts and race times. That's why we focus on
             <span class="italic">you</span>—your mindset, your goals, your lifestyle. We're here to
             support the whole person behind the runner.
           </li>
@@ -40,9 +45,7 @@
       </div>
 
       <div class="flex flex-col">
-        <h2 class="text-6xl font-bold uppercase text-light-red text-left font-orbitron">
-          Who We Are
-        </h2>
+        <h2 class="text-6xl font-bold uppercase text-light-red text-left">Who We Are</h2>
         <p class="mt-6 text-xl text-white/50 text-left">
           We’re three former NCAA DII runners who’ve raced at nationals, led teams to conference
           titles, and trained through setbacks and comebacks. Our coaching is shaped by years of
@@ -55,24 +58,8 @@
           >meet the coaches →</RouterLink
         >
       </div>
-
-      <div class="text-center">
-        <p class="text-5xl uppercase font-bold text-white/75">
-          Start working towards <br />your eclipse today.
-        </p>
-        <div class="mt-8 space-x-4">
-          <router-link
-            to="/training"
-            class="bg-red text-white px-6 py-3 rounded-md hover:bg-light-red transition"
-            >Sign up Today</router-link
-          >
-          <router-link
-            to="/contact"
-            class="border border-red text-red px-6 py-3 rounded-md hover:bg-light-red hover:text-white transition"
-            >Get in Touch</router-link
-          >
-        </div>
-      </div>
     </div>
+
+    <C2A class="my-24" />
   </section>
 </template>

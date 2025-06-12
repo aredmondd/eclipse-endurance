@@ -8,12 +8,24 @@
     <form @submit.prevent="handleSubmit" class="flex flex-col mx-auto gap-6 mb-12">
       <label class="flex flex-col items-start gap-2">
         Email:
-        <input type="email" name="email" v-model="email" class="border py-0.5 px-2" required />
+        <input
+          type="email"
+          name="email"
+          v-model="email"
+          class="border border-white/75 py-0.5 px-2"
+          required
+        />
       </label>
 
       <label class="flex flex-col items-start gap-2">
         Name:
-        <input type="text" name="name" v-model="name" class="border py-0.5 px-2" required />
+        <input
+          type="text"
+          name="name"
+          v-model="name"
+          class="border border-white/75 py-0.5 px-2"
+          required
+        />
       </label>
 
       <fieldset class="flex flex-col items-start gap-2">
