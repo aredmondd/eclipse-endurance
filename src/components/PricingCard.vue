@@ -14,12 +14,14 @@
       <h1 class="text-4xl font-extrabold font-orbitron">${{ cost }}</h1>
       <p class="text-white/75">{{ title != 'New Moon' ? '/ month' : ' one time payment' }}</p>
     </div>
-    <button
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSf3dqDY81DB53QyXEpeQZFCJeOtyKKGMHXKIefxzkG38eHgtA/viewform?usp=sharing&ouid=110534330143953080548"
+      target="_blank"
       class="py-2 my-6 rounded-md text-center"
       :class="middle ? 'bg-light-red' : 'bg-white/5'"
     >
       Get started
-    </button>
+    </a>
     <div class="flex flex-col flex-grow mt-auto">
       <ul class="flex flex-col gap-3">
         <li
