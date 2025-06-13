@@ -101,7 +101,7 @@
       </p>
     </div>
 
-    <RouterLink to="/training" class="text-center text-light-red underline mt-8"
+    <RouterLink to="/coaches" class="text-center text-light-red underline mt-8"
       >Meet the Coaches →</RouterLink
     >
   </div>
