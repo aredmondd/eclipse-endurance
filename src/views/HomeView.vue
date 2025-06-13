@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+    class="invisible sm:visible absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
     aria-hidden="true"
   >
     <div
@@ -28,11 +28,11 @@
     ></div>
   </div>
 
-  <div class="mt-24 mb-72">
-    <h1 class="text-red font-bold text-center text-6xl max-w-4xl mx-auto mt-8">
+  <div class="mt-24 mb-64 sm:mb-72">
+    <h1 class="text-red font-bold text-center text-4xl sm:text-6xl sm:max-w-4xl mx-auto mt-8">
       Coaching to unlock your next breakthrough.
     </h1>
-    <p class="max-w-2xl text-center mx-auto mt-6 text-white/50 text-lg">
+    <p class="max-w-2xl text-center mx-auto mt-3 sm:mt-6 text-white/50 text-sm sm:text-lg">
       Coaching for runners who want more from training, goals, and growth with personalized plans,
       real support, and a long-term mindset.
     </p>
@@ -44,14 +44,14 @@
     </div>
   </div>
 
-  <div class="flex flex-col mb-72">
-    <h1 class="text-white/75 font-bold text-center text-6xl">What We Do</h1>
-    <p class="max-w-3xl mx-auto mt-4 text-white/50 text-center">
+  <div class="flex flex-col mb-64 sm:mb-72">
+    <h1 class="text-white/75 font-bold text-center text-5xl sm:text-6xl">What We Do</h1>
+    <p class="max-w-3xl mx-auto mt-4 text-white/50 text-center text-sm sm:text-md">
       We offer personalized coaching for runners of all levels—from first 5Ks to national
       qualifiers. Whether you’re just starting out or chasing your next big goal, we’ll
       <span class="italic"> meet you where you are </span> and help you get where you want to be.
     </p>
-    <div class="flex flex-col gap-4 max-w-3xl mx-auto mt-12 text-xl">
+    <div class="flex flex-col gap-4 max-w-3xl mx-auto mt-6 sm:mt-12 text-md sm:text-xl">
       <p class="flex gap-2 text-white/80">
         <img src="/icons8-check.svg" alt="" class="w-5 invert" />Tailored training plans designed
         for your unique goals & lifestyle
@@ -75,19 +75,19 @@
     >
   </div>
 
-  <div class="flex flex-col mb-72">
-    <h1 class="text-white/75 font-bold text-center text-6xl">Meet Your Coaches</h1>
-    <div class="flex items-center justify-center mt-8 gap-8">
-      <img src="/alex-profile.png" alt="" class="w-48 rounded-full" />
-      <img src="/aiden-profile.png" alt="" class="w-48 rounded-full" />
-      <img src="/anthony-profile.png" alt="" class="w-48 rounded-full" />
+  <div class="flex flex-col mb-64 sm:mb-72">
+    <h1 class="text-white/75 font-bold text-center text-4xl sm:text-6xl">Meet Your Coaches</h1>
+    <div class="flex flex-col sm:flex-row items-center justify-center mt-8 gap-4 sm:gap-8">
+      <img src="/alex-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
+      <img src="/aiden-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
+      <img src="/anthony-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
     </div>
-    <p class="max-w-2xl mx-auto mt-8 text-white/50 text-center">
+    <p class="max-w-2xl mx-auto mt-8 text-white/50 text-center text-sm sm:text-md">
       We’re three former NCAA DII athletes who’ve led teams to championships, raced at nationals,
       and grown through every kind of setback and comeback. We coach because we’ve lived it—and we
       know how much it matters.
     </p>
-    <div class="flex flex-col gap-4 max-w-3xl mx-auto mt-8 text-xl">
+    <div class="flex flex-col gap-4 max-w-3xl mx-auto mt-8 text-md sm:text-xl">
       <p class="flex gap-2 text-white/80">
         <img src="/icons8-check.svg" alt="" class="w-5 invert" />3x former NCAA DII runners
       </p>
@@ -106,9 +106,9 @@
     >
   </div>
 
-  <div class="flex flex-col mb-72">
-    <h1 class="text-white/75 font-bold text-center text-6xl">Ready to Start?</h1>
-    <p class="max-w-2xl mx-auto mt-4 text-white/50 text-center">
+  <div class="flex flex-col mb-64 sm:mb-72">
+    <h1 class="text-white/75 font-bold text-center text-4xl sm:text-6xl">Ready to Start?</h1>
+    <p class="max-w-2xl mx-auto mt-4 text-white/50 text-center text-sm sm:text-md">
       Choose the coaching plan that meets you where you are—and grows with you.
     </p>
     <PricingSection />
@@ -118,8 +118,8 @@
   </div>
 
   <div class="flex flex-col items-center mb-36">
-    <h1 class="text-white/75 font-bold text-center text-6xl">Stay in Touch</h1>
-    <p class="max-w-2xl mx-auto mt-8 text-white/50 text-center">
+    <h1 class="text-white/75 font-bold text-center text-4xl sm:text-6xl">Stay in Touch</h1>
+    <p class="max-w-2xl mx-auto mt-8 text-white/50 text-center text-sm sm:text-md">
       Got a question? Want to know if we’re the right fit? We’d love to hear from you.
     </p>
 
@@ -131,7 +131,7 @@
   </div>
 
   <div
-    class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+    class="invisible sm:visible absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
     aria-hidden="true"
   >
     <div

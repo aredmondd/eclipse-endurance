@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="text-red font-bold text-center text-8xl">GET IN TOUCH</h1>
-    <p class="text-white/50 text-center mt-2 mb-12 text-lg">
+    <h1 class="text-red font-bold text-center text-6xl sm:text-8xl">GET IN TOUCH</h1>
+    <p class="text-white/50 text-center mt-2 mb-12 text-md sm:text-lg">
       Start working towards your eclipse today.
     </p>
 

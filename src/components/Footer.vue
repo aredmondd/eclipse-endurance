@@ -1,7 +1,7 @@
 <template>
   <hr class="text-white/25 mt-12" />
-  <div class="flex items-center justify-between">
-    <div class="flex gap-2 my-6">
+  <div class="flex items-center justify-center sm:justify-between my-6 sm:my-0">
+    <div class="hidden sm:flex gap-2 my-6">
       <img src="/primary-icon.png" alt="" class="w-15" />
       <img src="/logo.png" alt="" class="w-auto h-15" />
     </div>
@@ -26,9 +26,6 @@
         to="/contact"
         >contact</RouterLink
       >
-    </div>
-    <div class="flex gap-4">
-      <div class="bg-red font-bold text-black p-6 rounded-full">AR</div>
     </div>
   </div>
 </template>

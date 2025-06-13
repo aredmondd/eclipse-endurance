@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-red font-bold uppercase text-8xl text-center">TRAINING PLANS</h1>
+  <h1 class="text-red font-bold uppercase text-6xl sm:text-8xl text-center">TRAINING PLANS</h1>
   <p class="max-w-2xl mx-auto text-white/25 text-center mt-4 mb-4">
     Choose the plan that fits your journey—whether you’re starting fresh, gaining momentum, or
     chasing your ultimate eclipse moment.
@@ -8,7 +8,7 @@
     <PricingSection />
 
     <!-- feature comparison -->
-    <div class="overflow-x-auto mt-32 rounded-xl border-2 border-white/25 mb-12">
+    <div class="hidden sm:block mt-32 rounded-xl border-2 border-white/25 mb-12 overflow-x-auto">
       <table class="min-w-full text-white text-sm md:text-base">
         <thead class="bg-white/5 text-left">
           <tr>
@@ -81,6 +81,70 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!-- MOBILE STACKED VIEW -->
+    <div class="block sm:hidden mt-32 space-y-8 mb-12">
+      <div
+        v-for="feature in [
+          {
+            label: 'Plan Length',
+            newMoon: '8 weeks',
+            firstLight: 'Ongoing',
+            totalEclipse: 'Ongoing',
+          },
+          {
+            label: 'Coach Check-ins',
+            newMoon: 'Week 3 & 6 (Email)',
+            firstLight: 'Biweekly (Text/Email)',
+            totalEclipse: '3–4x/week (Call/Text/Email)',
+          },
+          {
+            label: 'Training Plan Updates',
+            newMoon: '—',
+            firstLight: 'Biweekly',
+            totalEclipse: 'As needed',
+          },
+          { label: 'Local Group Runs', newMoon: '✓', firstLight: '✓', totalEclipse: '✓' },
+          {
+            label: 'Race Planning Guidance',
+            newMoon: '—',
+            firstLight: '✓',
+            totalEclipse: '✓ (Full Season)',
+          },
+          {
+            label: 'Strength & Mobility Resources',
+            newMoon: '—',
+            firstLight: 'General',
+            totalEclipse: 'Advanced & Personalized',
+          },
+          { label: 'Gear & Shoe Advice', newMoon: '—', firstLight: '—', totalEclipse: '✓' },
+          {
+            label: 'Nutrition & Fueling Guidance',
+            newMoon: '—',
+            firstLight: '—',
+            totalEclipse: '✓',
+          },
+          { label: 'Form Analysis', newMoon: '—', firstLight: '—', totalEclipse: '✓' },
+          { label: 'Priority Support', newMoon: '—', firstLight: '—', totalEclipse: '✓' },
+        ]"
+        :key="feature.label"
+        class="rounded-xl border border-white/20 p-4 bg-white/5 text-white"
+      >
+        <h3 class="font-bold text-lg mb-3">{{ feature.label }}</h3>
+        <div class="flex justify-between text-sm">
+          <span class="text-white/50">New Moon</span>
+          <span>{{ feature.newMoon }}</span>
+        </div>
+        <div class="flex justify-between text-sm mt-1">
+          <span class="text-white/50">First Light</span>
+          <span>{{ feature.firstLight }}</span>
+        </div>
+        <div class="flex justify-between text-sm mt-1">
+          <span class="text-white/50">Total Eclipse</span>
+          <span>{{ feature.totalEclipse }}</span>
+        </div>
+      </div>
     </div>
 
     <C2A class="my-24" />

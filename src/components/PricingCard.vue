@@ -32,7 +32,7 @@
       </ul>
     </div>
 
-    <p v-if="title == 'New Moon'" class="text-white/33">
+    <p v-if="title == 'New Moon'" class="text-white/33 mt-4">
       <span class="italic">New Moon</span> is perfect for high school athletes or summer solo
       training
     </p>

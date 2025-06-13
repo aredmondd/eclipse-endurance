@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center gap-12 mt-12">
+  <div class="flex flex-col sm:flex-row justify-center gap-6 sm:gap-12 mt-12">
     <PricingCard
       title="New Moon"
       desc="For beginner runners or those seeking a focused 8-week training block to build a solid base."
