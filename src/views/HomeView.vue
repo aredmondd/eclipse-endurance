@@ -78,9 +78,21 @@
   <div class="flex flex-col mb-64 sm:mb-72">
     <h1 class="text-white/75 font-bold text-center text-4xl sm:text-6xl">Meet Your Coaches</h1>
     <div class="flex flex-col sm:flex-row items-center justify-center mt-8 gap-4 sm:gap-8">
-      <img src="/alex-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
-      <img src="/aiden-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
-      <img src="/anthony-profile.png" alt="" class="w-42 sm:w-48 rounded-full" />
+      <img
+        src="https://res.cloudinary.com/dkznczrj0/image/upload/v1749994391/alex-profile_gxwdka.png"
+        alt=""
+        class="w-42 sm:w-48 rounded-full"
+      />
+      <img
+        src="https://res.cloudinary.com/dkznczrj0/image/upload/v1749994391/aiden-profile_qzech2.png"
+        alt=""
+        class="w-42 sm:w-48 rounded-full"
+      />
+      <img
+        src="https://res.cloudinary.com/dkznczrj0/image/upload/v1749994390/anthony-profile_izpmkc.png"
+        alt=""
+        class="w-42 sm:w-48 rounded-full"
+      />
     </div>
     <p class="max-w-2xl mx-auto mt-8 text-white/50 text-center text-sm sm:text-md">
       We’re three former NCAA DII athletes who’ve led teams to championships, raced at nationals,
